@@ -1,0 +1,58 @@
+# =============================================
+# OUTPUT & WORKING DIRECTORIES
+# =============================================
+# Thư mục chứa ảnh đầu ra (không cần push)
+image_done/
+image_error/
+output_ai/
+output_png/
+
+# =============================================
+# INPUT FILES
+# =============================================
+# File ảnh trong thư mục xử lý
+file_Glass/
+
+# =============================================
+# SYSTEM FILES
+# =============================================
+# Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============================================
+# EDITOR & IDE
+# =============================================
+# VSCode workspace settings (giữ lại extensions/tasks nếu muốn)
+.vscode/
+# Nếu muốn chia sẻ extensions thì comment dòng trên và dùng:
+# !.vscode/extensions.json
+
+# =============================================
+# NODE / NPM (nếu có dùng)
+# =============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =============================================
+# LOGS & TEMP
+# =============================================
+*.log
+*.tmp
+*.temp
+~$*
+
+# =============================================
+# OS FILES
+# =============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
